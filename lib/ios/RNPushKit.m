@@ -11,7 +11,7 @@
     
     PKPushRegistry* pushKitRegistry = [[PKPushRegistry alloc] initWithQueue:dispatch_get_main_queue()];
     pushKitRegistry.delegate = _pushKitEventListener;
-    pushKitRegistry.desiredPushTypes = [NSSet setWithObject:PKPushTypeVoIP];
+    //pushKitRegistry.desiredPushTypes = [NSSet setWithObject:PKPushTypeVoIP];
     
     return self;
 }
